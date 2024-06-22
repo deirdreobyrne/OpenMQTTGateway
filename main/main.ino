@@ -2111,10 +2111,10 @@ void setup_ethernet_esp32() {
   bool ethBeginSuccess = false;
   WiFi.onEvent(WiFiEvent);
 #    ifdef NetworkAdvancedSetup
-  IPAddress ip_adress;
-  IPAddress gateway_adress;
-  IPAddress subnet_adress;
-  IPAddress dns_adress;
+  IPAddress ip;
+  IPAddress gateway;
+  IPAddress subnet;
+  IPAddress Dns;
   ip.fromString(NET_IP);
   gateway.fromString(NET_GW);
   subnet.fromString(NET_MASK);

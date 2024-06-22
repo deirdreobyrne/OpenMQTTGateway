@@ -1,5 +1,6 @@
 .pio
 .vscode
+!production_env.ini
 *_env.ini
 **/.DS_Store
 node_modules
